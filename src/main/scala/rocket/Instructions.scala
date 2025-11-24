@@ -2167,7 +2167,6 @@ object CSRs {
   val mrlenb = 0xc45
   val mamul = 0xc46
   val mtok = 0xc47
-  val mstart = 0x040
   val mcsr = 0x041
   val all = {
     val res = collection.mutable.ArrayBuffer[Int]()
@@ -2498,7 +2497,6 @@ object CSRs {
     res += mrlenb
     res += mamul
     res += mtok
-    res += mstart
     res += mcsr
     res.toArray
   }
